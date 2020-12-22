@@ -1,0 +1,108 @@
+/* ESTILO GERAIS */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+@font-face {
+    font-family: BlackChancery;
+    src: url(../fonts/BLKCHCRY.TTF);
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn {
+    border: 3px solid #96D6B3;
+    padding: 10px 30px;
+    color: #96D6B3;
+    font-size: 16px;
+    line-height: 21px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: #000;
+    border-color: #000;
+}
+
+/* HEADER */
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 25px 0;
+    z-index: 10;
+    background: #96D6B3;
+}
+
+.header-menu {
+    text-align: right;
+}
+
+.header-menu ul li {
+    display: inline-block;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.header-menu ul li a {
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px 0;
+}
+
+.header-menu ul li a:hover {
+    color: #000;
+}
+
+.header.logo-text a {
+    text-decoration: none;
+}
+
+.logo-text {
+    font-family: BlackChancery, Arial, Helvetica, sans-serif;
+    color: #FFF;
+    font-size: 32px;
+    margin-top: 10px;
+}
+
+/* SOBRE MIM */
+
+.sobre-mim {
+    margin-top: 92px;
+    padding: 60px 0;
+}
+
+.sobre-texto {
+    padding-left: 10px;
+}
+
+.sobre-mim h1 {
+    font-size: 28px;
+    font-weight: 900;
+    color: #2e324a;
+    line-height: 30px;
+    letter-spacing: .1em;
+    padding: 0;
+    margin: 15px 0 5px 0;
+}
+
+.sobre-texto .crp {
+    font-size: 14px;
+    font-weight: 900;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.sobre-texto p {
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
