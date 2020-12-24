@@ -77,7 +77,7 @@ body {
 
 .sobre-mim {
     margin-top: 92px;
-    padding: 60px 0;
+    padding: 80px 0;
 }
 
 .sobre-texto {
@@ -105,4 +105,171 @@ body {
     line-height: 24px;
     margin-top: 20px;
     margin-bottom: 40px;
+}
+
+.section-consultorio {
+    width: 100%;
+    background: #96D6B3;
+    padding: 60px 0;
+}
+
+.section-consultorio img {
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+.section-title {
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+}
+
+.section-title::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #FFF;
+    margin: 6px auto 10px auto;
+}
+
+.blacktitle {
+    color: #2e324a;
+}
+
+.blacktitle::after {
+    background: #2e324a;
+}
+
+.shadow-box {
+    -webkit-box-shadow: 2px 2px 8px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 2px 8px 0px rgba(0,0,0,0.75);
+box-shadow: 2px 2px 8px 0px rgba(0,0,0,0.75);
+}
+
+/* BENEFICIOS */
+.beneficios {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.beneficios h2 {
+    margin-bottom: 40px;
+}
+
+.beneficios-lista li {
+    background: #000;
+}
+
+.beneficios-lista li h3 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    margin-top: 20px;
+    color: #FFF;
+}
+
+.beneficios-lista li h3::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #FFF;
+    margin: 2px auto;
+}
+
+.beneficios-lista li p {
+    padding: 10px 20px 20px 20px;
+    color: #FFF;
+}
+
+.beneficios-icone {
+    background: #96D6B3;
+    padding: 20px;
+}
+
+.beneficios-icone img {
+    margin: 0 auto;
+    width: 200px;
+    height: 140px;
+}
+
+/* QUOTE */
+.quote_clientes {
+    padding: 20px 0;
+    margin: 0 auto;
+    max-width: 460px;
+}
+
+.quote_clientes p {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 18px;
+    line-height: 25px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.quote_clientes cite {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: bold;
+    text-align: right;
+    float: right;
+    font-style: normal;
+}
+
+
+/* JAVASCRIPT */
+.js [data-slide]{position:relative}[data-slide]>*{position:absolute;top:0;opacity:0;pointer-events:none}[data-slide]>.active{position:relative;opacity:1;transition:opacity .5s;z-index:1;pointer-events:auto}
+
+.js [data-slide-nav] {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.js [data-slide-nav] button {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin: 4px;
+    border: none;
+    padding: 0;
+    border-radius: 6px;
+    text-indent: -99px;
+    overflow: hidden;
+    background: #1d1d1d;
+}
+
+.js [data-slide-nav] button.active {
+    background: #fff;
+}
+
+.js [data-anime] {
+    opacity: 0;
+}
+
+/* 7 CSS personalizado dependendo da animação desejada */
+.js .fadeInDown {
+    transform: translate3d(0,-20px,0);
+}
+.js .fadeInUp {
+    transform: translate3d(0,20px,0);
+}
+.js .fadeInRight {
+    transform: translate3d(20px,0,0);
+}
+.js .fadeInLeft {
+    transform: translate3d(-20px,0,0);
+}
+
+.js .anime {
+    opacity: 1;
+    transform: none;
+    transition: transform .8s, opacity .8s;
 }

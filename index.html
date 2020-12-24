@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,19 +10,23 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/style-raw.css">
+
+
+    <script>document.documentElement.classList.add("js");</script>
     <script src="https://kit.fontawesome.com/c53a01de21.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
 
     <header id="header" class="header">
         <div class="container">
-            <a href="#header" class="grid-5">
+            <a href="#  " class="grid-5">
                 <h2 class="logo-text">Jéssica Rodrigues</h2>
             </a>
             <nav class="grid-11 header-menu">
                 <ul>
-                    <li><a href="">Sobre</a></li>
-                    <li><a href="">Consultório</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#consult">Consultório</a></li>
                     <li><a href="">Benefícios</a></li>
                     <li><a href="">Depoimentos</a></li>
                 </ul>
@@ -29,37 +34,114 @@
         </div>
     </header>
 
-    <section class="container sobre-mim">
+    <section id="sobre" class="container sobre-mim">
         <article class="grid-8 sobre-img">
-            <img src="./img/psico2.jpg" alt="Foto de perfil da Psicóloga Jéssica">
+            <img data-anime="400" class="fadeInDown" src="./img/psico2.jpg" alt="Foto de perfil da Psicóloga Jéssica">
         </article>
 
         <article class="grid-8 sobre-texto">
-            <h1>Psicóloga Jéssica Rodrigues</h1>
-            <span class="crp">CRP: 07/32015 - Torres/RS</span>
-            <p>Meu nome é Jéssica Schardosim Rodrigues, sou formada em Psicologia
-                 desde o ano de 2019 pela Universidade do Extremo Sul Catarinense - 
-                 UNESC de Criciúma. Nasci e resido em Torres. Durante minha vida acadêmica,
-                  morei cinco anos em Criciúma e no meu último ano de graduação retornei à cidade. 
-                  Atualmente realizo atendimentos clinico na Clínica Revitalize, 
-                  licalizada no centro de Torres, trabalho com atendimento de 
-                  adolescentes e adultos na modalidade presencial, utilizando 
-                  de base teorica a abordagem Análise Transacional. Considero 
-                  de suma importância à saúde mental e o trabalho na prevenção e
-                   promoção à saúde. Coloco-me a disposição para ajuda-lo. Seja bem vindo!</p>
-            <a class="btn btn-space" style="margin-right: 10px;" href=""><i class="fab fa-whatsapp fa-lg"></i> Whatsapp</a>
-            <a class="btn btn-space" href=""><i class="fab fa-instagram fa-lg"></i> Instagram</a>
+            <h1 data-anime="800" class="fadeInDown">Psicóloga Jéssica Rodrigues</h1>
+            <span data-anime="800" class="crp fadeInDown">CRP: 07/32015 - Torres/RS</span>
+            <p data-anime="1200" class="fadeInDown">Meu nome é Jéssica Schardosim Rodrigues, sou formada em Psicologia
+                desde o ano de 2019 pela Universidade do Extremo Sul Catarinense -
+                UNESC de Criciúma. Nasci e resido em Torres. Durante minha vida acadêmica,
+                morei cinco anos em Criciúma e no meu último ano de graduação retornei à cidade.
+                Atualmente realizo atendimentos clinico na Clínica Revitalize,
+                licalizada no centro de Torres, trabalho com atendimento de
+                adolescentes e adultos na modalidade presencial, utilizando
+                de base teorica a abordagem Análise Transacional. Considero
+                de suma importância à saúde mental e o trabalho na prevenção e
+                promoção à saúde. Coloco-me a disposição para ajuda-lo. Seja bem vindo!</p>
+            <a data-anime="1600" class="btn btn-space fadeInDown" style="margin-right: 10px;" href=""><i
+                    class="fab fa-whatsapp fa-lg"></i>
+                Whatsapp</a>
+            <a data-anime="1600" class="btn btn-space fadeInDown" href=""><i class="fab fa-instagram fa-lg"></i>
+                Instagram</a>
         </article>
     </section>
 
-    <section class="section-consultorio">
-        <div class="container">
-            <h2 class="section-title">Consultório</h2>
+    <section id="consult" class="section-consultorio">
+        <h2 class="section-title">Consultório</h2>
+        <div class="container" data-slide="consult-img">
             <ul>
-                <li class="grid-16"><img src="" alt=""></li>
+                <li class="grid-16"><img class="shadow-box" src="./img/post1.jpg"
+                        alt="Posto feito no Instagram da Jéssica"></li>
+            </ul>
+            <ul>
+                <li class="grid-16"><img class="shadow-box" src="./img/cartao.jpg"
+                        alt="Posto feito no Instagram da Jéssica"></li>
+            </ul>
+            <ul>
+                <li class="grid-16"><img class="shadow-box" src="./img/psico.je2.jpg"
+                        alt="Posto feito no Instagram da Jéssica"></li>
             </ul>
         </div>
     </section>
-    
+
+    <section class="beneficios container">
+        <h2 class="section-title blacktitle">Benefícios da Psicologia</h2>
+        <ul class="beneficios-lista">
+            <li class="grid-1-3">
+                <div class="beneficios-icone">
+                    <img src="./img/brain.svg" alt="Icone demonstrando Autoconhecimento">
+                </div>
+                <h3>Autoconhecimento</h3>
+                <p>A psicoterapia te auxilia a conhecer melhor a si mesmo, compreender
+                    seus limites, objetivos pessoais, emoções, sentimentos,
+                    comportamentos entre outros, além de fortalecer a autoestima.
+                </p>
+            </li>
+        </ul>
+
+        <ul class="beneficios-lista">
+            <li class="grid-1-3">
+                <div class="beneficios-icone">
+                    <img src="./img/relationship.svg" alt="Icone demonstrando Relacionamento">
+                </div>
+                <h3>Relacionamento</h3>
+                <p>O autoconhecimento e o fortalecimento da autoestima,
+                    resultados da psicoterapia, também te ajudam nas
+                    suas relações interpessoais, sendo elas parte do cotidiano.
+                </p>
+            </li>
+        </ul>
+
+        <ul class="beneficios-lista">
+            <li class="grid-1-3">
+                <div class="beneficios-icone">
+                    <img src="./img/inspiration.svg" alt="Icone demonstrando a promoção da Saúde Mental">
+                </div>
+                <h3>Promover Saúde Mental</h3>
+                <p>Identificar seus limites, suas emoções, perceber-se, você
+                    poderá desenvolver pensamentos e comportamentos mais
+                    construtivos, resultando em uma saúde mental e vida de melhor qualidade
+                </p>
+            </li>
+        </ul>
+    </section>
+
+    <section class="container" data-slide="quote">
+        <blockquote class="quote_clientes">
+            <p>"A vida não se acaba quando deixamos de viver e sim quando deixamos
+                de buscar algo nela!."</p>
+            <cite>Henrique Roldão</cite>
+        </blockquote>
+        <blockquote class="quote_clientes">
+            <p>"Da da da da da da da da da da da da da da da da da da da da da da da
+                dadadadadada dada da da da daAAAAAAAAAAAAAAAAAAAAA!."</p>
+            <cite>Bryan Roldão</cite>
+        </blockquote>
+        <blockquote class="quote_clientes">
+            <p>"É preciso escolher um caminho que não tenha fim, mas, ainda assim
+                , caminhar sempre na expectativa de encontrá-lo."</p>
+            <cite>Maria Vitória</cite>
+        </blockquote>
+    </section>
+
+
+    <script src="./js/simple-slide.js"></script>
+    <script src="./js/simple-anime.js"></script>
+    <script src="./js/script.js"></script>
 </body>
+
 </html>
