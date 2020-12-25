@@ -223,6 +223,95 @@ box-shadow: 2px 2px 8px 0px rgba(0,0,0,0.75);
     font-style: normal;
 }
 
+/* FOOTER */
+.footer {
+    width: 100%;
+    background: #96D6B3;
+    color: #FFF;
+    padding: 20px 0;
+    margin-top: 80px;
+}
+
+.footer h3 {
+    font-size: 18px;
+    line-height: 25px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-weight: bold;
+}
+
+.footer h3::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #fff;
+    margin: 6px 0 12px 0;
+}
+
+.footer_contato ul li {
+    line-height: 20px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.footer_contato a {
+    color: #fff;
+}
+
+.footer_contato a:hover {
+    color: #000;
+    font-weight: bold;
+}
+
+.footer_redes ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer_redes ul li a {
+    border: 3px solid #fff;
+    display: block;
+    padding: 10px;
+}
+
+.footer_redes ul li a:hover {
+    border-color: #000;
+}
+
+.metd-pagamento li {
+    line-height: 20px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.metd-pagamento li:hover {
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.copy {
+    width: 100%;
+    background: #000;
+    padding: 20px 0;
+    color: #FFF;
+}
+
+.copy p {
+    display: inline-block;
+}
+
+.creditos {
+    margin-left: 317px;
+}
+
+.creditos a {
+    text-decoration: underline;
+    color: #FFF;
+}
+
 
 /* JAVASCRIPT */
 .js [data-slide]{position:relative}[data-slide]>*{position:absolute;top:0;opacity:0;pointer-events:none}[data-slide]>.active{position:relative;opacity:1;transition:opacity .5s;z-index:1;pointer-events:auto}
