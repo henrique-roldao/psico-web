@@ -2,6 +2,12 @@
 
 @media only screen and (min-width: 788px) and (max-width: 979px) {
 
+    /* Gerais */
+    .btn {
+        padding: 10px 15px;
+        font-size: 16px;
+    }
+
     /* Header  */
     .logo-text {
         font-size: 28px;
@@ -13,6 +19,16 @@
         height: 464px;
     }
 
+    /* Consultorio */
+    .section-consultorio ul li img {
+        margin: 0 104px;
+        margin-top: 20px;
+    }
+
+    /* Beneficios */
+    .beneficios-lista li {
+        height: 435px;
+    }
 
     /* Footer */
     .footer_redes ul li a {
@@ -24,26 +40,18 @@
         height: 26px;
     }
 
-    /* Produtos */
-    .produto_item h2 {
-        top: -150px;
-        margin-bottom: -56px;
+    .quebra-tablet {
+        display: block;
     }
 
-    .produto_icone {
-        padding: 41px 0;
+    /* Creditos */
+    .copy .grid-16 {
+        margin: 0;
     }
 
-    .produto_info p {
-        font-size: 14px;
-        line-height: 20px;
-        padding: 20px 30px;
-        height: 122px;
-    }
-
-    .produto_info ul li {
-        width: 181px;
-        height: 49px;
+    .creditos {
+        margin-top: 20px;
+        margin-left: 250px;
     }
 
 } /* FINALI ESTILO TABLET */
