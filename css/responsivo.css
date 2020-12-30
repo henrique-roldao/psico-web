@@ -2,6 +2,18 @@
 
 @media only screen and (min-width: 788px) and (max-width: 979px) {
 
+    /* Header  */
+    .logo-text {
+        font-size: 28px;
+    }
+
+    /* Sobre Mim */
+    .sobre-mim img {
+        width: 364px;
+        height: 464px;
+    }
+
+
     /* Footer */
     .footer_redes ul li a {
         padding: 6px;
@@ -39,7 +51,16 @@
 /* Estilo para Mobile */
 
 @media only screen and (max-width: 787px) {
+    /* Gerais */
+    .btn {
+        padding: 10px 7px;
+        font-size: 14px;
+    }
     /* HEADER */
+
+    .logo-text {
+        font-size: 36px;
+    }
 
     .header {
         position: relative;
@@ -87,4 +108,13 @@
         margin: 0;
     }
 
+    /* Creditos */
+    .copy .grid-16 {
+        margin: 0;
+    }
+
+    .creditos {
+        margin-top: 20px;
+        margin-left: 0px;
+    }
 }
