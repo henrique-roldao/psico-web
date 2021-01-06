@@ -1,4 +1,8 @@
 /* ESTILO GERAIS */
+html {
+    scroll-behavior: smooth;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
 
 @font-face {
@@ -277,9 +281,18 @@ box-shadow: 2px 2px 8px 0px rgba(0,0,0,0.75);
     padding: 10px;
 }
 
+.icon-redes {
+    color: #fff;
+}
+
 .footer_redes ul li a:hover {
     border-color: #000;
 }
+
+.footer_redes ul li a:hover  i {
+    color: #000;
+}
+
 
 .metd-pagamento li {
     line-height: 20px;
